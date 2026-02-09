@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wemi Diary 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Wemi Diary</h1>
+      <p class="sub">The digital scrapbook of all our memories</p>
+    </div>
+    <button id="heartBtn" class="heart" aria-label="Send love">💗</button>
+  </header>
+
+  <main class="grid">
+    <section class="card photo">
+      <h2>Photo of the Day</h2>
+      <img id="photoOfDay" alt="Photo of the day" />
+      <p id="photoCaption" class="muted"></p>
+    </section>
+
+    <section class="card">
+      <h2>Countdown</h2>
+      <div class="count">
+        <div class="big" id="countdownBig">—</div>
+        <div class="muted" id="countdownSmall">Set your date in app.js</div>
+      </div>
+    </section>
+
+    <section class="card memoryCard">
+      <h2>Memory Button</h2>
+      <p class="muted">Press for a random moment.</p>
+      <button id="memoryBtn" class="primary">Give me a memory ✨</button>
+      <div class="memory">
+        <img id="memoryImg" alt="" />
+        <p id="memoryText"></p>
+      </div>
+    </section>
+
+    <section class="card timeline">
+      <h2>Our Timeline</h2>
+      <div id="timeline"></div>
+    </section>
+
+    <section class="card secret">
+      <h2>Secret</h2>
+      <p class="muted">Click the heart a few times…</p>
+      <div id="secretBox" class="secretBox hidden">
+        <h3>Message unlocked 💌</h3>
+        <p id="secretMessage"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot muted">
+    Made with unreasonable levels of affection.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
