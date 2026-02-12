@@ -11,6 +11,11 @@ const photos = [
   { file: "love.jpg", caption: "Why can't we just pause time and stay there for a million years" },
   { file: "handsies.jpg", caption: "OMG WE HELD HANDS!!!!!" },
   { file: "shoes.jpg", caption: "Okay our shoes are kinda cute" },
+  { file: "afloat.jpg", caption: "Feeding you sushi is kinda intimate" },
+  { file: "dough.jpg", caption: "My proudest creation, cant believe it came out so well haha" },
+  { file: "baking.jpg", caption: "I JUST LOVE YOU SO MUCH" },
+  { file: "perfectdate.jpg", caption: "This was perfection. So pinterestttt" },
+  { file: "kissykissy.jpg", caption: "Oh to lie on your shoulder, and kiss your cheeks for the rest of my life" }
   // add more...
 ];
 function dayKeyLocal() {
@@ -53,14 +58,14 @@ const timelineItems = [
 ];
 
 // --- 3) Countdown target date (local time) ---
-const target = new Date("2026-01-10T10:00:00"); // change this!
+const target = new Date("2026-03-10T10:00:00"); // change this!
 
 // --- 4) Secret message ---
 const secretMessageText =
-  "Dear Emina, to think that its only been twoish months since I first talked to you and only oneish months since I sent that text lmao. In such a fraction of my life, you have swallowed my whole heart, " +
-  "you have become my whole life, you are my first thought after I wake up, the constant thought throughout my trivial daily tasks, the person I want to be with when I'm doing my chores, a new constant within my already vivid dreams. " +
-  "I don't have much space in this silly little box, but Emina I could spend hours writing about you. You were who I missed in my past, who I have in my present, and who I want to be with for the rest of my future. I love you so much Emina.... as hbs ofc 😝"
-  +" P.S. make sure to take a screenshot of this because I will be updating this little box with messages every now and then I love you baby.";
+  "Hey Emi, just a short message here. I wish you the best of luck for your third sem in Adelaide."
+  + " I know you're gonna go and absolutely kill it with AMSA, Medball, and all the other initiatives you're taking. "
+  + "You are such a special person, and I am going to miss you sooooo much. Don't miss me too much though, be sure to have the most awesome time at uni. "
+  + "I love you, yours truly - Wassu";
 
 // ========== App logic below ==========
 let idx = 0;
